@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BookManager</string>
+    <string name="titleField">Title</string>
+    <string name="authorField">Author</string>
+    <string name="pages">Number of Pages</string>
+    <string name="lastpage">Last read page</string>
+    <string name="startdate">Start Date</string>
+    <string name="addButton">Save Book</string>
 </resources>

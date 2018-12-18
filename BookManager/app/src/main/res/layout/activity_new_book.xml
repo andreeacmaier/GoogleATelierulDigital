@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityrelated.NewBookActivity"
+    android:fillViewport="true"
+    >
+<RelativeLayout
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityrelated.NewBookActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/titleField"
+        android:id="@+id/title_field"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/title_field"
+        android:hint="@string/authorField"
+        android:id="@+id/author_field"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/author_field"
+        android:hint="@string/pages"
+        android:id="@+id/total_field"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/total_field"
+        android:hint="@string/lastpage"
+        android:id="@+id/last_page_field"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_page_field"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/date_field"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/startdate"
+        android:id="@+id/start_date"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/date"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/date_field"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/add_update_button"
+        android:textColor="@color/black"
+        />
+
+   
+</RelativeLayout>
+</ScrollView>

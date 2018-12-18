@@ -7,18 +7,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activityrelated.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/title"
-        android:text="Bookclub"
-        android:layout_centerHorizontal="true"
-        android:textSize="20dp"
-        android:fontFamily="serif"
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/add_new_book"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="10dp"
         android:textStyle="bold"
-        android:textColor="#f97e77"
+        android:textAlignment="center"
         />
 
     <TextView
@@ -26,13 +28,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/title1"
         android:text="Weekly Progress"
-        android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:textSize="30dp"
         android:fontFamily="serif"
         android:textStyle="bold"
-        android:textColor="#f97e77"
+        android:textColor="@color/coral"
         />
 <LinearLayout
     android:layout_width="match_parent"
@@ -105,17 +106,8 @@
         android:textSize="30dp"
         android:fontFamily="serif"
         android:textStyle="bold"
-        android:textColor="#f97e77"
+        android:textColor="@color/coral"
         />
 
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_below="@id/title2">
-
-       
-
-</ScrollView>
 
 </RelativeLayout>
