@@ -1,4 +1,4 @@
-package com.example.user.bookmanager.activityrelated;
+package com.example.user.bookmanager.tools;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

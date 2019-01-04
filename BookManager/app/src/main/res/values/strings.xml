@@ -7,4 +7,10 @@
     <string name="lastpage">Last read page</string>
     <string name="startdate">Start Date</string>
     <string name="addButton">Save Book</string>
+    <string name="weeklyProg">Weekly Progress</string>
+    <string name="reading">Reading</string>
+    <string name="pagesRead">Pages Read</string>
+    <string name="completed">Completed</string>
+    <string name="lastRead">Last Read</string>
+    <string name="currentlyRead">Currently Reading</string>
 </resources>
